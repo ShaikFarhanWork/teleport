@@ -1,0 +1,2393 @@
+@font-face {
+  font-family: "major_mono_display";
+  src: url("FONTS/Major_Mono_Display/MajorMonoDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("FONTS/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Montserrat_italic";
+  src: url("FONTS/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Montserrat_thin";
+  src: url("FONTS/Montserrat/static/Montserrat-Thin.ttf");
+}
+@font-face {
+  font-family: "Montserrat_light";
+  src: url("FONTS/Montserrat/static/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat_medium";
+  src: url("FONTS/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat_regular";
+  src: url("FONTS/Montserrat/static/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat_bold";
+  src: url("FONTS/Montserrat/static/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Montserrat_extra_bold";
+  src: url("FONTS/Montserrat/static/Montserrat-ExtraBold.ttf ");
+}
+@font-face {
+  font-family: "MontserratAlternates_light";
+  src: url("FONTS/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates_medium";
+  src: url("FONTS/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates_regular";
+  src: url("FONTS/Montserrat_Alternates/MontserratAlternates-Regular.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates_bold";
+  src: url("FONTS/Montserrat_Alternates/MontserratAlternates-Bold.ttf");
+}
+@font-face {
+  font-family: "MontserratSubrayada_regular";
+  src: url("FONTS/Montserrat_Subrayada/MontserratSubrayada-Regular.ttf");
+}
+@font-face {
+  font-family: "MontserratSubrayada_bold";
+  src: url("FONTS/Montserrat_Subrayada/MontserratSubrayada-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto_thin";
+  src: url("FONTS/Roboto/Roboto-thin.ttf");
+}
+@font-face {
+  font-family: "Roboto_light";
+  src: url("FONTS/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto_regular";
+  src: url("FONTS/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto_medium";
+  src: url("FONTS/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Roboto_bold";
+  src: url("FONTS/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoCondensed_light";
+  src: url("FONTS/Roboto_Condensed/RobotoCondensed-Light.ttf");
+}
+@font-face {
+  font-family: "RobotoCondensed_regular";
+  src: url("FONTS/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoCondensed_bold";
+  src: url("FONTS/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoFlex_regular";
+  src: url("FONTS/Roboto_Flex/static/RobotoFlex/RobotoFlex-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoMono_light";
+  src: url("FONTS/Roboto_Mono/static/RobotoMono-Light.ttf");
+}
+@font-face {
+  font-family: "RobotoMono_medium";
+  src: url("FONTS/Roboto_Mono/static/RobotoMono-Medium.ttf");
+}
+@font-face {
+  font-family: "RobotoMono_regular";
+  src: url("FONTS/Roboto_Mono/static/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoMono_semi_bold";
+  src: url("FONTS/Roboto_Mono/static/RobotoMono-SemiBold.ttf");
+}
+@font-face {
+  font-family: "RobotoMono_bold";
+  src: url("FONTS/Roboto_Mono/static/RobotoMono-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab_light";
+  src: url("FONTS/Roboto_Slab/static/RobotoSlab-Light.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab_medium";
+  src: url("FONTS/Roboto_Slab/static/RobotoSlab-Medium.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab_regular";
+  src: url("FONTS/Roboto_Slab/static/RobotoSlab-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab_semi_bold";
+  src: url("FONTS/Roboto_Slab/static/RobotoSlab-SemiBold.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab_bold";
+  src: url("FONTS/Roboto_Slab/static/RobotoSlab-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoSlab_extra_bold";
+  src: url("FONTS/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Righteous_Regular";
+  src: url("FONTS/Righteous/Righteous-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway_extra_light";
+  src: url("FONTS/Raleway/static/Raleway-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Raleway_light";
+  src: url("FONTS/Raleway/static/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "Raleway_thin";
+  src: url("FONTS/Raleway/static/Raleway-Thin.ttf");
+}
+@font-face {
+  font-family: "Raleway_regular";
+  src: url("FONTS/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway_semi_bold";
+  src: url("FONTS/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Raleway_bold";
+  src: url("FONTS/Raleway/static/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: "Raleway_extra_bold";
+  src: url("FONTS/Raleway/static/Raleway-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Raleway_dots";
+  src: url("FONTS/Raleway_Dots/RalewayDots-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins_extraLight";
+  src: url("FONTS/Poppins/Poppins-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Poppins_Light";
+  src: url("FONTS/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: "Poppins_medium";
+  src: url("FONTS/Poppins/Poppins-medium.ttf");
+}
+@font-face {
+  font-family: "Poppins_regular";
+  src: url("FONTS/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins_semi_bold";
+  src: url("FONTS/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Poppins_bold";
+  src: url("FONTS/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Poppins_extra_bold";
+  src: url("FONTS/Poppins/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "JosefinSans_extra_light";
+  src: url("FONTS/Josefin_Sans/static/JosefinSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "JosefinSans_light";
+  src: url("FONTS/Josefin_Sans/static/JosefinSans-Light.ttf");
+}
+@font-face {
+  font-family: "JosefinSans_medium";
+  src: url("FONTS/Josefin_Sans/static/JosefinSans-medium.ttf");
+}
+@font-face {
+  font-family: "JosefinSans_regular";
+  src: url("FONTS/Josefin_Sans/static/JosefinSans-Regular.ttf");
+}
+@font-face {
+  font-family: "JosefinSans_semi_bold";
+  src: url("FONTS/Josefin_Sans/static/JosefinSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "JosefinSans_bold";
+  src: url("FONTS/Josefin_Sans/static/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab_extra_light";
+  src: url("FONTS/Josefin_Slab/static/JosefinSlab-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab_light";
+  src: url("FONTS/Josefin_Slab/static/JosefinSlab-Light.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab_medium";
+  src: url("FONTS/Josefin_Slab/static/JosefinSlab-medium.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab_regular";
+  src: url("FONTS/Josefin_Slab/static/JosefinSlab-Regular.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab_semi_bold";
+  src: url("FONTS/Josefin_Sans/static/JosefinSlab-SemiBold.ttf");
+}
+@font-face {
+  font-family: "JosefinSlab_bold";
+  src: url("FONTS/Josefin_Slab/static/JosefinSlab-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato_light";
+  src: url("FONTS/Lato/Lato-Light.ttf");
+}
+@font-face {
+  font-family: "Lato_thin";
+  src: url("FONTS/Lato/Lato-Thin.ttf");
+}
+@font-face {
+  font-family: "Lato_regular";
+  src: url("FONTS/Lato/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato_bold";
+  src: url("FONTS/Lato/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "PTSans_regular";
+  src: url("FONTS/PT_Sans/PTSans-Regular.ttf");
+}
+@font-face {
+  font-family: "PTSans_bold";
+  src: url("FONTS/PT_Sans/PTSans-Bold.ttf");
+}
+@font-face {
+  font-family: "AbrilFatface_regular";
+  src: url("FONTS/Abril_Fatface/AbrilFatface-Regular.ttf");
+}
+@font-face {
+  font-family: "AlbertSans_light";
+  src: url("FONTS/Albert_Sans/static/AlbertSans-Light.ttf");
+}
+@font-face {
+  font-family: "AlbertSans_medium";
+  src: url("FONTS/Albert_Sans/static/AlbertSans-Medium.ttf");
+}
+@font-face {
+  font-family: "AlbertSans_regular";
+  src: url("FONTS/Albert_Sans/static/AlbertSans-Regular.ttf");
+}
+@font-face {
+  font-family: "AlbertSans_bold";
+  src: url("FONTS/Albert_Sans/static/AlbertSans-Bold.ttf");
+}
+@font-face {
+  font-family: "AlbertSans_extra_bold";
+  src: url("FONTS/Albert_Sans/static/AlbertSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "AlbertSans_light";
+  src: url("FONTS/Albert_Sans/static/AlbertSans-Light.ttf");
+}
+@font-face {
+  font-family: "AnonymousPro_regular";
+  src: url("FONTS/Anonymous_Pro/AnonymousPro-Regular.ttf");
+}
+@font-face {
+  font-family: "BadScript_regular";
+  src: url("FONTS/Bad_Script/BadScript-Regular.ttf");
+}
+@font-face {
+  font-family: "Barlow-Light";
+  src: url("FONTS/Barlow/Barlow-Light.ttf");
+}
+@font-face {
+  font-family: "Barlow_medium";
+  src: url("FONTS/Barlow/Barlow-Medium.ttf");
+}
+@font-face {
+  font-family: "Barlow_regular";
+  src: url("FONTS/Barlow/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: "Barlow_bold";
+  src: url("FONTS/Barlow/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "Barlow_semi_bold";
+  src: url("FONTS/Barlow/Barlow-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Barlow_extra_bold";
+  src: url("FONTS/Barlow/Barlow-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "CantataOne_regular";
+  src: url("FONTS/Cantata_One/CantataOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Cardo_regular";
+  src: url("FONTS/Cardo/Cardo-Regular.ttf");
+}
+@font-face {
+  font-family: "Cardo_bold";
+  src: url("FONTS/Cardo/Cardo-Bold.ttf");
+}
+@font-face {
+  font-family: "Comfortaa_light";
+  src: url("FONTS/Comfortaa/static/Comfortaa-Light.ttf");
+}
+@font-face {
+  font-family: "Comfortaa_regular";
+  src: url("FONTS/Comfortaa/static/Comfortaa-Regular.ttf");
+}
+@font-face {
+  font-family: "Comfortaa_semi_bold";
+  src: url("FONTS/Comfortaa/static/Comfortaa-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Comfortaa_bold";
+  src: url("FONTS/Comfortaa/static/Comfortaa-Bold.ttf");
+}
+@font-face {
+  font-family: "DarkerGrotesque_light";
+  src: url("FONTS/Darker_Grotesque/DarkerGrotesque-Light.ttf");
+}
+@font-face {
+  font-family: "DarkerGrotesque_medium";
+  src: url("FONTS/Darker_Grotesque/DarkerGrotesque-Medium.ttf");
+}
+@font-face {
+  font-family: "DarkerGrotesque_regular";
+  src: url("FONTS/Darker_Grotesque/DarkerGrotesque-Regular.ttf");
+}
+@font-face {
+  font-family: "DarkerGrotesque_bold";
+  src: url("FONTS/Darker_Grotesque/DarkerGrotesque-Bold.ttf");
+}
+@font-face {
+  font-family: "EduQLDBeginner_regular";
+  src: url("FONTS/Edu_QLD_Beginner/static/EduQLDBeginner-Regular.ttf");
+}
+@font-face {
+  font-family: "EduQLDBeginner_medium";
+  src: url("FONTS/Edu_QLD_Beginner/static/EduQLDBeginner-Medium.ttf");
+}
+@font-face {
+  font-family: "EduQLDBeginner_semi_bold";
+  src: url("FONTS/Edu_QLD_Beginner/static/EduQLDBeginner-SemiBold.ttf");
+}
+@font-face {
+  font-family: "EduQLDBeginner_bold";
+  src: url("FONTS/Edu_QLD_Beginner/static/EduQLDBeginner-Bold.ttf");
+}
+@font-face {
+  font-family: "Explora_regular";
+  src: url("FONTS/Explora/Explora-Regular.ttf");
+}
+@font-face {
+  font-family: "Figtree_light";
+  src: url("FONTS/Figtree/static/Figtree-Light.ttf");
+}
+@font-face {
+  font-family: "Figtree_medium";
+  src: url("FONTS/Figtree/static/Figtree-Medium.ttf");
+}
+@font-face {
+  font-family: "Figtree_semi_bold";
+  src: url("FONTS/Figtree/static/Figtree-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Figtree_bold";
+  src: url("FONTS/Figtree/static/Figtree-Bold.ttf");
+}
+@font-face {
+  font-family: "FlowBlock_regular";
+  src: url("FONTS/Flow_Block/FlowBlock-Regular.ttf");
+}
+@font-face {
+  font-family: "GreatVibes_regular";
+  src: url("FONTS/Great_Vibes/GreatVibes-Regular.ttf");
+}
+@font-face {
+  font-family: "Karla_light";
+  src: url("FONTS/Karla/static/Karla-Light.ttf");
+}
+@font-face {
+  font-family: "Karla_medium";
+  src: url("FONTS/Karla/static/Karla-Medium.ttf");
+}
+@font-face {
+  font-family: "Karla_regular";
+  src: url("FONTS/Karla/static/Karla-Regular.ttf");
+}
+@font-face {
+  font-family: "Karla_semi_bold";
+  src: url("FONTS/Karla/static/Karla-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Karla_bold";
+  src: url("FONTS/Karla/static/Karla-Bold.ttf");
+}
+@font-face {
+  font-family: "Karla_extra_bold";
+  src: url("FONTS/Karla/static/Karla-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "LibreBarcode128_regular";
+  src: url("FONTS/Libre_Barcode_128/LibreBarcode128-Regular.ttf");
+}
+@font-face {
+  font-family: "LibreBarcode39_Regular";
+  src: url("FONTS/Libre_Barcode_39/LibreBarcode39-Regular.ttf");
+}
+@font-face {
+  font-family: "LibreBarcode39Text_regular";
+  src: url("FONTS/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf");
+}
+@font-face {
+  font-family: "Lora_medium";
+  src: url("FONTS/Lora/static/Lora-Medium.ttf");
+}
+@font-face {
+  font-family: "Lora_regular";
+  src: url("FONTS/Lora/static/Lora-Regular.ttf");
+}
+@font-face {
+  font-family: "Lora_semi_bold";
+  src: url("FONTS/Lora/static/Lora-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Lora_bold";
+  src: url("FONTS/Lora/static/Lora-Bold.ttf");
+}
+@font-face {
+  font-family: "LuxuriousScript_regular";
+  src: url("FONTS/Luxurious_Script/LuxuriousScript-Regular.ttf");
+}
+@font-face {
+  font-family: "Manrope";
+  src: url("FONTS/Manrope/Manrope-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "NothingYouCouldDo_regular";
+  src: url("FONTS/Nothing_You_Could_Do/NothingYouCouldDo-Regular.ttf");
+}
+@font-face {
+  font-family: "NunitoSans_extra_Light";
+  src: url("FONTS/Nunito_Sans/NunitoSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "NunitoSans_light";
+  src: url("FONTS/Nunito_Sans/NunitoSans-Light.ttf");
+}
+@font-face {
+  font-family: "NunitoSans_regular";
+  src: url("FONTS/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "NunitoSans_semiBold";
+  src: url("FONTS/Nunito_Sans/NunitoSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "NunitoSans_bold";
+  src: url("FONTS/Nunito_Sans/NunitoSans-Bold.ttf");
+}
+@font-face {
+  font-family: "NunitoSans_extra_bold";
+  src: url("FONTS/Nunito_Sans/NunitoSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Pacifico_regular";
+  src: url("FONTS/Pacifico/Pacifico-Regular.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay_medium";
+  src: url("FONTS/Playfair_Display/static/PlayfairDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay_regular";
+  src: url("FONTS/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay_semi_bold";
+  src: url("FONTS/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay_bold";
+  src: url("FONTS/Playfair_Display/static/PlayfairDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "PlayfairDisplay_extra_bold";
+  src: url("FONTS/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Slabo27px_Regular";
+  src: url("FONTS/Slabo_27px/Slabo27px-Regular.ttf");
+}
+@font-face {
+  font-family: "SourceSansPro_extraLight";
+  src: url("FONTS/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "SourceSansPro_light";
+  src: url("FONTS/Source_Sans_Pro/SourceSansPro-Light.ttf");
+}
+@font-face {
+  font-family: "SourceSansPro_regular";
+  src: url("FONTS/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "SourceSansPro_semi_bold";
+  src: url("FONTS/Source_Sans_Pro/SourceSansPro-SemiBold.ttf");
+}
+@font-face {
+  font-family: "SourceSansPro_bold";
+  src: url("FONTS/Source_Sans_Pro/SourceSansPro-Bold.ttf");
+}
+@font-face {
+  font-family: "WorkSans_extraLight";
+  src: url("FONTS/Work_Sans/static/WorkSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "WorkSans_thin";
+  src: url("FONTS/Work_Sans/static/WorkSans-Thin.ttf");
+}
+@font-face {
+  font-family: "WorkSans_light";
+  src: url("FONTS/Work_Sans/static/WorkSans-Light.ttf");
+}
+@font-face {
+  font-family: "WorkSans_regular";
+  src: url("FONTS/Work_Sans/static/WorkSans-Regular.ttf");
+}
+@font-face {
+  font-family: "WorkSans_medium";
+  src: url("FONTS/Work_Sans/static/WorkSans-Medium.ttf");
+}
+@font-face {
+  font-family: "WorkSans_semi_bold";
+  src: url("FONTS/Work_Sans/static/WorkSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: "WorkSans_bold";
+  src: url("FONTS/Work_Sans/static/WorkSans-Bold.ttf");
+}
+@font-face {
+  font-family: "WorkSans_extra_bold";
+  src: url("FONTS/Work_Sans/static/WorkSans-ExtraBold.ttf");
+}
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: snow;
+  background-color: rgb(28, 22, 25) !important;
+  font-size: 1vw;
+  letter-spacing: 0.05vw;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+img {
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+::-moz-selection {
+  color: rgb(22, 10, 10);
+  background: rgb(214, 214, 218);
+}
+
+::selection {
+  color: rgb(22, 10, 10);
+  background: rgb(214, 214, 218);
+}
+
+input:focus {
+  outline: none;
+}
+
+@media (min-width: 320px) {
+  nav {
+    padding: 2vw;
+    background-color: black;
+    font-size: 5rem;
+    font-family: "major_mono_display";
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  nav .nav-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  nav .nav-grid .nav-brand {
+    padding: 1.5vw;
+    padding-top: 1.25vw;
+    color: rgb(237, 12, 57);
+    font-size: 5vw;
+  }
+  nav .nav-grid .nav-menu {
+    text-align: right;
+    margin-right: 5vw;
+  }
+  nav .nav-grid .nav-menu i {
+    margin-top: 1.75vw;
+    font-size: 4vw;
+    color: rgb(237, 12, 57);
+  }
+  nav .nav-grid .nav-menu .menu_x {
+    position: absolute;
+    visibility: hidden;
+    margin-right: 1vw;
+  }
+  nav .nav-grid .nav-menu .menu_x_vis {
+    visibility: hidden;
+  }
+  nav .nav-grid .nav-menu .menu_hide {
+    transform: rotate(90deg);
+    transition: 0.25s;
+  }
+  nav .nav-grid .nav-menu .menu_visible {
+    visibility: visible;
+  }
+  nav .nav-grid .nav-social {
+    margin-top: 0.35vw;
+    background-color: rgb(211, 85, 85);
+    background-color: rgb(29, 29, 31);
+    text-align: center;
+  }
+  nav .nav-grid .nav-social i {
+    font-size: 4vw;
+    color: rgb(233, 219, 219);
+    margin-top: 1.8vw;
+  }
+  nav .nav-grid .nav-social i:hover {
+    color: snow;
+  }
+  .nav-prime {
+    visibility: hidden;
+  }
+  .nav_menu_drp {
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 5vw;
+    font-size: 3vw;
+    text-align: center;
+    width: 100%;
+    padding: 2vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    color: rgb(208, 175, 175);
+    font-family: "Poppins_medium";
+    position: fixed;
+    z-index: 100;
+    padding-bottom: 3.5vw;
+    background-color: rgb(15, 15, 15);
+  }
+  .nav_menu_drp .drp {
+    margin: auto 2vw;
+    background-color: black;
+  }
+  .nav_menu_drp .drp a {
+    color: rgb(208, 175, 175);
+    background-color: rgb(17, 0, 21);
+    padding: 0.75vw 2vw;
+    border: 1px solid rgb(162, 56, 56);
+  }
+  .nav_menu_drp_vis {
+    visibility: visible;
+    padding-top: 15vw;
+    margin-bottom: 1vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.626);
+    transition: 0.5s;
+  }
+  .nav_menu_drp_vis .drp {
+    background-color: black;
+  }
+}
+@media (min-width: 640px) {
+  nav {
+    visibility: hidden;
+  }
+  .nav-prime {
+    visibility: visible;
+    position: fixed;
+    width: 100%;
+  }
+  .nav-prime .nav-grid-pr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .nav-prime .nav-grid-pr .nav-brand-pr {
+    color: rgb(222, 225, 236);
+    color: rgb(250, 204, 246);
+    font-size: 3.5vw;
+    margin-top: 0.25vw;
+  }
+  .nav-prime .nav-grid-pr .nav-menu-pr {
+    font-size: 1.25vw;
+    margin-left: 2.5vw;
+    padding-top: 1.5vw;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-family: "Poppins_medium";
+    font-family: "Poppins_Light";
+  }
+  .nav-prime .nav-grid-pr .nav-menu-pr a {
+    color: rgb(232, 241, 243);
+    padding: 1.5vw;
+  }
+  .nav-prime .nav-grid-pr .nav-menu-pr a:hover {
+    color: red;
+    transition: 0.25s;
+  }
+  .nav-prime .nav-grid-pr .nav-social-pr {
+    background-color: rgb(37, 35, 35);
+    font-size: 1vw;
+    text-align: center;
+    height: 3.5vw;
+    padding: 0.5vw;
+    margin-top: 1vw;
+    padding-top: 1vw;
+    border: 1px solid red;
+    padding-left: 1vw;
+    margin-left: 0.25vw;
+  }
+  .nav-prime .nav-grid-pr .nav-social-pr a {
+    padding: 0.25vw;
+  }
+}
+@media (min-width: 1280px) {
+  nav {
+    visibility: hidden;
+  }
+  .nav-prime {
+    visibility: visible;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+  }
+  .nav-prime .nav-grid-pr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .nav-prime .nav-grid-pr .nav-brand-pr {
+    color: rgb(222, 225, 236);
+    color: rgb(250, 204, 246);
+    font-size: 2.5vw;
+    padding: 1vw;
+    margin-left: 1vw;
+  }
+  .nav-prime .nav-grid-pr .nav-menu-pr {
+    font-size: 1.1vw;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-family: "Poppins_medium";
+    font-family: "Poppins_Light";
+  }
+  .nav-prime .nav-grid-pr .nav-menu-pr a {
+    color: rgb(232, 241, 243);
+    padding: 1.5vw;
+  }
+  .nav-prime .nav-grid-pr .nav-menu-pr a:hover {
+    color: red;
+    transition: 0.25s;
+  }
+  .nav-prime .nav-grid-pr .nav-social-pr {
+    background-color: rgb(37, 35, 35);
+    font-size: 1.35vw;
+    text-align: center;
+    height: 2.5vw;
+    padding: 0.65vw;
+    padding-top: 0.45vw;
+    margin-top: 1.2vw;
+    border: 1px solid rgb(231, 53, 53);
+    padding-left: 1vw;
+    margin-left: 1.5vw;
+    width: 75%;
+    float: right;
+  }
+  .nav-prime .nav-grid-pr .nav-social-pr a {
+    padding: 0.5vw;
+  }
+  .nav-prime .nav-grid-pr .nav-social-pr a:hover {
+    color: red;
+    transition: 0.25s;
+  }
+}
+@media (min-width: 320px) {
+  .div-1 video {
+    z-index: -100;
+    width: 100%;
+    position: absolute;
+  }
+  .div-1 .div-1-text {
+    background-color: #0e0d0d;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 4vw;
+    transform: translateY(30vw);
+  }
+  .div-1 .div-1-text .div-1-p-t {
+    font-size: 3.5vw;
+    word-spacing: 0.25vw;
+    font-family: "Montserrat_bold";
+    color: rgb(240, 118, 118);
+    text-align: center;
+    line-height: 5vw;
+    text-align: left;
+  }
+  .div-1 .div-1-text .div-1-p-tt {
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 2.75vw;
+    text-align: left;
+    word-spacing: 1vw;
+    color: rgb(238, 229, 229);
+    font-family: "Major_Mono_Display";
+  }
+  .div-1 .div-1-text .div-1-p-ttt {
+    text-align: left;
+    padding: 1vw;
+    padding-top: 2.5vw;
+    padding-left: 0;
+    font-size: 3.25vw;
+    font-family: "roboto_light";
+    line-height: 4vw;
+    font-family: "RobotoFlex_regular";
+    text-align: justify;
+    word-spacing: 0.1vw;
+  }
+  .div-1 .div-1-text .div-1-p-ttt span {
+    color: rgb(210, 200, 223);
+    font-size: 3vw;
+  }
+}
+@media (min-width: 320px) {
+  .div-2 .journey {
+    margin-top: 35vw;
+    margin-left: 5%;
+    font-family: radikal;
+    border: 5px solid rgb(10, 16, 37);
+    padding: 8vw;
+    font-family: "RobotoMono_regular";
+    font-family: "Righteous_Regular";
+    font-family: "Raleway_regular";
+    width: 30.5%;
+    white-space: nowrap;
+    color: cyan;
+    filter: contrast(2);
+  }
+  .div-2 .journey .journey-h1 {
+    font-size: 2.75vw;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.3vw;
+  }
+  .div-2 .journey .journey-h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    width: 2vw;
+    padding-left: 5vw;
+    margin-left: 2.7vw;
+    height: 1px;
+    background-color: cyan;
+  }
+  .div-2 .journey-div-1 {
+    display: grid;
+  }
+  .div-2 .journey-div-1 .journey-p-div {
+    font-size: 5vw;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p {
+    width: 100%;
+    text-align: center;
+    margin: 10vw;
+    padding: 2.5vw;
+    margin-top: 7vw;
+    color: ivory;
+    font-family: "roboto_light";
+    background-color: rgba(2, 4, 8, 0.4431372549);
+    transform: translateX(-10vw);
+    line-height: 2.5vw;
+    padding: 2.5vw 4vw;
+    text-align: justify;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-size: 5vw;
+    line-height: 2.5vw;
+    font-family: "Montserrat_medium";
+    font-family: "Montserrat";
+    font-family: "Roboto_regular";
+    font-family: "Roboto_light";
+    color: rgb(243, 241, 249);
+    line-height: 4vw;
+    font-family: "Roboto_bold";
+    font-family: "Roboto_regular";
+    word-spacing: 0.1vw;
+    font-size: 3.25vw;
+    background-color: black;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .spand {
+    font-family: "LibreBarcode128_regular";
+    font-family: "LibreBarcode39_Regular";
+    font-size: 1.95vw;
+    padding-right: 1.5vw;
+    text-align: justify;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .dot {
+    height: 0.5vw;
+    width: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .abt {
+    font-size: 4vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: rgb(243, 144, 158);
+    font-family: "Righteous_Regular";
+    font-family: "Raleway_regular";
+  }
+  .div-2 .journey-div-1 .tech i {
+    margin-right: 2.19vw;
+    font-size: 4.5vw;
+  }
+  .div-2 .journey-div-1 .look {
+    font-size: 3vw;
+  }
+  .div-2 .journey-div-1 button {
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    padding: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1vw;
+    text-align: center;
+    margin: 2vw;
+    margin-right: 2.5vw;
+    margin-left: 0;
+    width: 100%;
+  }
+  .div-2 .journey-div-1 button a {
+    font-size: 3vw;
+    padding: 0.75vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+    text-align: center;
+  }
+}
+@media (min-width: 640px) {
+  .div-2 .journey {
+    margin-top: 25vw;
+    margin-left: 5%;
+    font-family: radikal;
+    border: 5px solid rgb(10, 16, 37);
+    padding: 8vw;
+    font-family: "RobotoMono_regular";
+    font-family: "Righteous_Regular";
+    font-family: "Raleway_regular";
+    width: 30.5%;
+    white-space: nowrap;
+    color: cyan;
+    filter: contrast(2);
+  }
+  .div-2 .journey .journey-h1 {
+    font-size: 2.5vw;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.3vw;
+  }
+  .div-2 .journey .journey-h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    width: 2vw;
+    padding-left: 5vw;
+    margin-left: 2.7vw;
+    height: 1px;
+    background-color: cyan;
+  }
+  .div-2 .journey-div-1 {
+    margin-bottom: 10vw;
+    display: grid;
+  }
+  .div-2 .journey-div-1 .journey-p-div {
+    font-size: 5vw;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p {
+    width: 100%;
+    text-align: center;
+    margin: 10vw;
+    padding: 2.5vw;
+    margin-top: 7vw;
+    color: ivory;
+    font-family: "roboto_light";
+    background-color: rgba(2, 4, 8, 0.4431372549);
+    transform: translateX(-10vw);
+    line-height: 2.5vw;
+    padding: 2.5vw 4vw;
+    text-align: justify;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    font-size: 2.25vw;
+    line-height: 2.5vw;
+    font-family: "Montserrat_medium";
+    font-family: "Montserrat";
+    font-family: "Roboto_regular";
+    font-family: "Roboto_light";
+    color: rgb(243, 241, 249);
+    line-height: 3.25vw;
+    font-family: "Roboto_bold";
+    font-family: "Roboto_regular";
+    word-spacing: 0.1vw;
+    font-size: 2.5vw;
+    background-color: black;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .spand {
+    font-family: "LibreBarcode128_regular";
+    font-family: "LibreBarcode39_Regular";
+    font-size: 1.95vw;
+    padding-right: 1.5vw;
+    text-align: justify;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .dot {
+    height: 0.5vw;
+    width: 0.5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .abt {
+    font-size: 2.75vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: rgb(243, 144, 158);
+    font-family: "Righteous_Regular";
+    font-family: "Raleway_regular";
+  }
+  .div-2 .journey-div-1 .tech i {
+    margin-right: 2.19vw;
+    font-size: 4.5vw;
+  }
+  .div-2 .journey-div-1 button {
+    font-size: 4vw;
+    color: rgb(255, 255, 255);
+    padding: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1vw;
+    text-align: center;
+    margin: 2vw;
+    margin-right: 2.5vw;
+    margin-left: 0;
+    width: 100%;
+  }
+  .div-2 .journey-div-1 button a {
+    font-size: 3vw;
+    padding: 0.75vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 2vw;
+    text-align: center;
+  }
+}
+@media (min-width: 1280px) {
+  .div-2 .journey {
+    margin-top: 7.5vw;
+    margin-left: 8%;
+    font-family: radikal;
+    border: 5px solid rgb(10, 16, 37);
+    padding: 8vw;
+    width: 30.5%;
+    white-space: nowrap;
+    color: cyan;
+    filter: contrast(2);
+  }
+  .div-2 .journey .journey-h1 {
+    font-size: 2.5vw;
+    letter-spacing: 0.2vw;
+    word-spacing: 0.3vw;
+  }
+  .div-2 .journey .journey-h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    width: 2vw;
+    padding-left: 5vw;
+    margin-left: 2.7vw;
+    height: 1px;
+    background-color: cyan;
+  }
+  .div-2 .journey-div-1 {
+    margin-bottom: 10vw;
+    display: grid;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p {
+    word-spacing: 0.1vw;
+    width: 100%;
+    text-align: center;
+    margin: 10vw;
+    padding: 2.5vw;
+    margin-top: 7vw;
+    font-size: 1.3vw;
+    color: ivory;
+    font-family: "roboto_light";
+    background-color: rgba(2, 4, 8, 0.4431372549);
+    transform: translateX(-10vw);
+    line-height: 2vw;
+    padding: 2.5vw 7vw;
+    text-align: justify;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .dot {
+    height: 0.5vw;
+    width: 0.5vw;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .div-2 .journey-div-1 .journey-p-div .journey-p .abt {
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    color: rgb(70, 60, 60);
+  }
+  .div-2 .journey-div-1 .tech i {
+    margin-right: 2.19vw;
+  }
+}
+@media (min-width: 320px) {
+  .div-3 .div-3-fixed-bg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/IMAGES/frontbg.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text {
+    text-align: center;
+    padding: 10vw 5vw;
+    padding-top: 3.5vw;
+    margin-bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat_bold";
+    font-size: 5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text i {
+    font-size: 5vw;
+    color: crimson;
+    margin-bottom: 2vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-1 {
+    font-size: 5vw;
+    color: lightblue;
+    padding-bottom: 2.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-2 {
+    font-size: 3vw;
+    color: rgb(231, 238, 240);
+    font-family: "RobotoSlab-Regular";
+    font-family: "Montserrat";
+    font-family: "Montserrat_regular";
+    font-family: "MontserratAlternates_regular";
+    text-align: justify;
+    font-family: "Roboto_regular";
+    font-family: "Roboto_light";
+    border-bottom: 2px solid rgb(199, 68, 68);
+    padding-bottom: 3.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-2 span {
+    font-size: 3.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn {
+    padding: 1.5vw;
+    padding-bottom: 2.75vw;
+    text-align: center;
+    margin-top: 2.5vw;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: "RobotoSlab-Light";
+    background-color: transparent;
+    font-family: "Montserrat_regular";
+    border: 2px solid rgb(74, 74, 74);
+    background-color: rgb(12, 12, 12);
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn a {
+    color: rgb(249, 154, 154);
+    font-size: 2vw;
+    word-spacing: 0.25vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn:hover {
+    background-color: rgb(7, 2, 8);
+    transition: 0.5s;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn:hover a {
+    color: darkgray;
+  }
+  .div-3 .div-3-grid {
+    display: grid;
+  }
+  .div-3 .div-3-grid .div-3-img .img-1 {
+    padding: 2vw;
+    position: relative;
+    border: 2.5vw solid snow;
+  }
+  .div-3 .div-3-grid .div-3-img .img-1:hover {
+    transform: scale(1.005);
+    transition: 0.3s;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel {
+    margin-top: 2vw;
+    padding: 1.5vw;
+    /*
+    *  STYLE 5
+    */
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 48%;
+    overflow-x: auto;
+    scroll-snap-align: start;
+    overscroll-behavior-inline: contain;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element {
+    margin: 2vw 1.5vw;
+    background-color: aqua;
+    border-radius: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element img {
+    inline-size: 100%;
+    width: 100%;
+    padding: 1vw;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element img:hover {
+    transition: 0.3s;
+    transform: scale(1.01);
+  }
+  .div-3 .div-3-grid .div-3-text-t {
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 0.5vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-p-t {
+    font-size: 3.75vw;
+    line-height: 2.75vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    color: #6f4e37;
+    word-wrap: normal;
+    font-family: "SourceSansPro-SemiBold";
+    text-align: center;
+    border-bottom: 5px solid #6f4e37;
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+    width: 100%;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-p-t i {
+    color: #6f4e37;
+    padding-bottom: 0.5vw;
+    padding: 2vw;
+    font-size: 5vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul {
+    margin-top: 3.75vw;
+    font-size: 2.75vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2.75vw;
+    padding-right: 1vw;
+    font-family: "Raleway_semi_bold";
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li {
+    font-family: "SourceSansPro-SemiBold";
+    margin-bottom: 1.5vw;
+    font-family: "SourceSansPro-Regular";
+    color: #9c8c81;
+    font-family: "SourceSansPro_semi_bold";
+    padding-right: 2vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li span {
+    color: rgb(231, 68, 68);
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li i {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 640px) {
+  .div-3 .div-3-fixed-bg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/IMAGES/frontbg.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text {
+    text-align: center;
+    padding: 10vw 5vw;
+    padding-top: 3.5vw;
+    margin-bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat_bold";
+    font-size: 2vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text i {
+    font-size: 5vw;
+    color: crimson;
+    margin-bottom: 2vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-1 {
+    font-size: 5vw;
+    color: lightblue;
+    padding-bottom: 2.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-2 {
+    font-size: 2.5vw;
+    color: rgb(231, 238, 240);
+    word-spacing: 0.25vw;
+    font-family: "RobotoSlab-Regular";
+    font-family: "Montserrat";
+    font-family: "Montserrat_regular";
+    font-family: "MontserratAlternates_regular";
+    text-align: justify;
+    font-family: "Roboto_regular";
+    font-family: "Roboto_light";
+    border-bottom: 2px solid rgb(199, 68, 68);
+    padding-bottom: 3.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn {
+    padding: 1.5vw;
+    padding-bottom: 2.75vw;
+    text-align: center;
+    margin-top: 2.5vw;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: "RobotoSlab-Light";
+    background-color: transparent;
+    font-family: "Montserrat_regular";
+    border: 2px solid rgb(74, 74, 74);
+    background-color: rgb(12, 12, 12);
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn a {
+    color: rgb(249, 154, 154);
+    font-size: 2vw;
+    word-spacing: 0.25vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn:hover {
+    background-color: rgb(7, 2, 8);
+    transition: 0.5s;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn:hover a {
+    color: darkgray;
+  }
+  .div-3 .div-3-grid {
+    display: grid;
+  }
+  .div-3 .div-3-grid .div-3-img .img-1 {
+    padding: 2vw;
+    position: relative;
+    border: 2.5vw solid snow;
+  }
+  .div-3 .div-3-grid .div-3-img .img-1:hover {
+    transform: scale(1.005);
+    transition: 0.3s;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel {
+    margin-top: 2vw;
+    padding: 1.5vw;
+    /*
+    *  STYLE 5
+    */
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 48%;
+    overflow-x: auto;
+    scroll-snap-align: start;
+    overscroll-behavior-inline: contain;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element {
+    margin: 2vw 1.5vw;
+    background-color: aqua;
+    border-radius: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element img {
+    inline-size: 100%;
+    width: 100%;
+    padding: 1vw;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element img:hover {
+    transition: 0.3s;
+    transform: scale(1.01);
+  }
+  .div-3 .div-3-grid .div-3-text-t {
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 0.5vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-p-t {
+    font-size: 3.75vw;
+    line-height: 2.75vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    color: #6f4e37;
+    word-wrap: normal;
+    font-family: "SourceSansPro-SemiBold";
+    text-align: center;
+    border-bottom: 5px solid #6f4e37;
+    padding-bottom: 3vw;
+    padding-top: 5vw;
+    width: 100%;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-p-t i {
+    color: #6f4e37;
+    padding-bottom: 0.5vw;
+    padding: 2vw;
+    font-size: 5vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul {
+    margin-top: 3.75vw;
+    font-size: 2.75vw;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2.75vw;
+    padding-right: 1vw;
+    font-family: "Raleway_semi_bold";
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li {
+    font-family: "SourceSansPro-SemiBold";
+    margin-bottom: 1.5vw;
+    font-family: "SourceSansPro-Regular";
+    color: #9c8c81;
+    font-family: "SourceSansPro_semi_bold";
+    padding-right: 2vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li span {
+    color: rgb(231, 68, 68);
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li i {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 1280px) {
+  .div-3 .div-3-fixed-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85)), url("images/frontbg.jpg");
+    height: 45vw;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text {
+    text-align: center;
+    padding: 10vw;
+    padding-top: 3.5vw;
+    margin: 5vw;
+    margin-bottom: 2vw;
+    background-color: rgba(0, 0, 0, 0.473);
+    font-family: "Montserrat_bold";
+  }
+  .div-3 .div-3-fixed-bg .div-3-text i {
+    font-size: 2vw;
+    color: crimson;
+    margin-bottom: 2vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-1 {
+    font-size: 3vw;
+    color: lightblue;
+    padding-bottom: 2.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-p-2 {
+    font-size: 1.25vw;
+    color: rgb(231, 238, 240);
+    font-family: "RobotoSlab-Regular";
+    border-bottom: 2px solid rgb(199, 68, 68);
+    padding-bottom: 3.5vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn {
+    padding: 1vw 2.5vw;
+    margin-top: 2.5vw;
+    background-color: rgb(235, 76, 76);
+    font-family: "RobotoSlab-Light";
+    background-color: transparent;
+    font-family: "Montserrat_regular";
+    border: 2px dotted rgb(221, 97, 97);
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn a {
+    color: rgb(212, 121, 121);
+    font-size: 1.1vw;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn:hover {
+    background-color: rgb(7, 2, 8);
+    transition: 0.5s;
+  }
+  .div-3 .div-3-fixed-bg .div-3-text .div-3-btn:hover a {
+    color: darkgray;
+  }
+  .div-3 .div-3-grid {
+    display: grid;
+    grid-template-columns: 60% 30%;
+  }
+  .div-3 .div-3-grid .div-3-img .img-1 {
+    padding: 2vw;
+    position: relative;
+    filter: brightness(0.75);
+    border: 2.5vw solid snow;
+  }
+  .div-3 .div-3-grid .div-3-img .img-1:hover {
+    transform: scale(1.005);
+    transition: 0.3s;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel {
+    margin-top: 2vw;
+    padding: 2vw;
+    /*
+    *  STYLE 5
+    */
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 40%;
+    overflow-x: auto;
+    scroll-snap-align: start;
+    overscroll-behavior-inline: contain;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element {
+    margin: 2vw 1.5vw;
+    background-color: aqua;
+    border-radius: 2.5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element img {
+    inline-size: 100%;
+    width: 100%;
+    padding: 1vw;
+  }
+  .div-3 .div-3-grid .div-3-img .carousel .media-scroller .media-element img:hover {
+    transition: 0.3s;
+    transform: scale(1.01);
+  }
+  .div-3 .div-3-grid .div-3-text-t {
+    padding: 7.5vw;
+    text-align: center;
+    white-space: nowrap;
+    padding-left: 5vw;
+    margin-top: 1.5vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-p-t {
+    font-size: 1.95vw;
+    line-height: 2.5vw;
+    color: #6f4e37;
+    font-family: "SourceSansPro-SemiBold";
+    text-align: center;
+    border-bottom: 5px solid #6f4e37;
+    padding-bottom: 1vw;
+    width: 175%;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-p-t i {
+    color: #6f4e37;
+    padding-bottom: 0.5vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul {
+    margin-top: 3.75vw;
+    font-size: 1.25vw;
+    text-align: center;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li {
+    font-family: "SourceSansPro-SemiBold";
+    margin-bottom: 1.5vw;
+    font-family: "SourceSansPro-Regular";
+    color: #9c8c81;
+    word-spacing: 0.15vw;
+    margin-left: 2.75vw;
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li span {
+    color: rgb(231, 68, 68);
+  }
+  .div-3 .div-3-grid .div-3-text-t .div-3-ul .div-3-li i {
+    font-size: 1.5vw;
+  }
+}
+@media (min-width: 320px) {
+  .div-4 {
+    margin-top: 5vw;
+  }
+  .div-4 .web-development {
+    color: rgb(248, 243, 243);
+  }
+  .div-4 .web-development .backend {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/backend.jpg");
+    background-attachment: fixed;
+    justify-items: Left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5vw;
+    padding-right: 2vw;
+    padding-left: 3vw;
+  }
+  .div-4 .web-development .backend .div-4-p {
+    text-align: left;
+    font-size: 5vw;
+    margin-top: 5vw;
+    color: rgb(231, 216, 219);
+    word-spacing: 0.25vw;
+    font-family: "Montserrat_bold";
+    margin-bottom: 5vw;
+    font-size: 4.5vw;
+  }
+  .div-4 .web-development .backend .backend-p {
+    text-align: left;
+    font-size: 3.5vw;
+    color: #d17c7c;
+    text-align: justify;
+    border: 5px solid rgba(58, 55, 55, 0.63);
+    color: rgb(241, 248, 246);
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.768627451);
+    font-family: "Work_Sans_light";
+    font-family: "SourceSansPro_semi_bold";
+    font-family: "SourceSansPro_regular";
+  }
+  .div-4 .web-development .backend .backend-p .dvx {
+    font-size: 3vw;
+    font-family: "SourceSansPro_semi_bold";
+    font-family: "WorkSans_extraLight";
+    font-family: "WorkSans_regular";
+    font-family: "Roboto_medium";
+    font-family: "SourceSansPro_semi_bold";
+    color: #c6c1d8;
+  }
+  .div-4 .web-development .backend .backend-p .dvx i {
+    color: rgb(251, 74, 74);
+  }
+  .div-4 .web-development .backend .backend-p .dvx .dv {
+    font-size: 5vw;
+  }
+  .div-4 .web-development .backend .backend-p .btn {
+    background-color: rgb(6, 1, 14);
+    color: rgb(255, 251, 251);
+    padding: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    border: 3px solid rgba(255, 255, 255, 0.368);
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2.5vw;
+    width: 100%;
+    word-spacing: 0.2vw;
+  }
+  .div-4 .web-development .backend .backend-p a {
+    color: #ccc1c1;
+    text-decoration: none;
+    font-family: 3vw;
+  }
+  .div-4 .web-development .backend .backend-p a:hover {
+    color: rgb(255, 239, 239);
+  }
+  .div-4 .web-development .backend .backend-p .btn:hover {
+    border: 3px solid rgba(255, 255, 255, 0.275);
+    font-size: 1vw;
+    background: rgb(0, 0, 0);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+  }
+}
+@media (min-width: 640px) {
+  .div-4 {
+    margin-top: 5vw;
+  }
+  .div-4 .web-development {
+    color: rgb(248, 243, 243);
+  }
+  .div-4 .web-development .backend {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/backend.jpg");
+    background-attachment: fixed;
+    justify-items: Left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5vw;
+  }
+  .div-4 .web-development .backend .div-4-p {
+    text-align: left;
+    font-size: 5vw;
+    margin-top: 5vw;
+    color: rgb(231, 216, 219);
+    word-spacing: 0.25vw;
+    font-family: "Montserrat_bold";
+    margin-bottom: 5vw;
+    font-size: 4.5vw;
+  }
+  .div-4 .web-development .backend .backend-p {
+    text-align: left;
+    font-size: 3.5vw;
+    color: #d17c7c;
+    text-align: justify;
+    border: 5px solid rgba(58, 55, 55, 0.63);
+    color: rgb(241, 248, 246);
+    padding: 2vw;
+    background-color: rgba(0, 0, 0, 0.768627451);
+    font-family: "Work_Sans_light";
+    font-family: "SourceSansPro_semi_bold";
+    font-family: "SourceSansPro_regular";
+  }
+  .div-4 .web-development .backend .backend-p .dvx {
+    font-size: 3vw;
+    font-family: "SourceSansPro_semi_bold";
+    font-family: "WorkSans_extraLight";
+    font-family: "WorkSans_regular";
+    font-family: "Roboto_medium";
+    font-family: "SourceSansPro_semi_bold";
+    color: #c6c1d8;
+  }
+  .div-4 .web-development .backend .backend-p .dvx i {
+    color: rgb(251, 74, 74);
+  }
+  .div-4 .web-development .backend .backend-p .dvx .dv {
+    font-size: 5vw;
+  }
+  .div-4 .web-development .backend .backend-p .btn {
+    background-color: rgb(6, 1, 14);
+    color: rgb(255, 251, 251);
+    padding: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    border: 3px solid rgba(255, 255, 255, 0.368);
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2.5vw;
+    width: 100%;
+    word-spacing: 0.2vw;
+  }
+  .div-4 .web-development .backend .backend-p a {
+    color: #ccc1c1;
+    text-decoration: none;
+    font-family: 3vw;
+  }
+  .div-4 .web-development .backend .backend-p a:hover {
+    color: rgb(255, 239, 239);
+  }
+  .div-4 .web-development .backend .backend-p .btn:hover {
+    border: 3px solid rgba(255, 255, 255, 0.275);
+    font-size: 1vw;
+    background: rgb(0, 0, 0);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+  }
+}
+@media (min-width: 1280px) {
+  .div-4 {
+    margin-top: 5vw;
+  }
+  .div-4 .web-development {
+    color: white;
+  }
+  .div-4 .web-development .backend {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url("images/backend.jpg");
+    background-attachment: fixed;
+    justify-items: Left;
+    height: 150vh;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 5vw;
+  }
+  .div-4 .web-development .backend .div-4-p {
+    text-align: left;
+    font-size: 2.5vw;
+    margin-top: 5vw;
+    color: rgb(231, 216, 219);
+    word-spacing: 0.25vw;
+    font-family: "Montserrat_bold";
+    margin-bottom: 5vw;
+    font-size: 3.5vw;
+  }
+  .div-4 .web-development .backend .backend-p {
+    width: 80vw;
+    text-align: left;
+    font-family: "Radikal";
+    font-size: 1.5vw;
+    color: #d17c7c;
+    text-align: justify;
+    border: 5px solid rgba(58, 55, 55, 0.63);
+    color: rgb(173, 196, 191);
+    padding: 2.75vw;
+    background-color: rgba(0, 0, 0, 0.768627451);
+    font-family: "Work_Sans_light";
+  }
+  .div-4 .web-development .backend .backend-p span i {
+    color: red;
+  }
+  .div-4 .web-development .backend .backend-p .btn {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: rgb(207, 16, 16);
+    padding: 0.8vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    border: 3px solid rgb(139, 65, 65);
+    margin-right: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2.5vw;
+  }
+  .div-4 .web-development .backend .backend-p a {
+    color: #d85858;
+    text-decoration: none;
+  }
+  .div-4 .web-development .backend .backend-p a:hover {
+    color: rgb(255, 239, 239);
+  }
+  .div-4 .web-development .backend .backend-p .btn:hover {
+    border: 3px solid rgb(156, 66, 66);
+    font-size: 1vw;
+    background: rgb(0, 0, 0);
+    border-radius: 1rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+  }
+}
+@media (min-width: 320px) {
+  .div-5 {
+    padding-top: 3vw;
+  }
+  .div-5 .card-deck {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 75vw 75vw 75vw;
+    margin: 10% 5% 15% 5%;
+    -moz-column-gap: 5vw;
+         column-gap: 5vw;
+    color: #030e16;
+    font-family: radikal;
+    grid-auto-flow: column;
+    grid-auto-columns: 50%;
+    overflow-x: auto;
+    scroll-snap-align: start;
+    overscroll-behavior-inline: contain;
+  }
+  .div-5 .card-deck .dev-card {
+    font-size: 2vw;
+    border: 5px solid rgba(197, 77, 77, 0.63);
+    color: crimson;
+    background-color: black;
+  }
+  .div-5 .card-deck .dev-card img {
+    width: 100%;
+  }
+  .div-5 .card-deck .dev-card .card-body {
+    height: 35vw;
+  }
+  .div-5 .card-deck .dev-card .card-title {
+    font-size: 5vw;
+    padding: 2.75vw;
+    padding-bottom: 0;
+    font-family: "Roboto_bold";
+    color: snow;
+  }
+  .div-5 .card-deck .dev-card .card-text {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 3.25vw;
+    color: rgb(237, 237, 244);
+    font-family: "Raleway_regular";
+  }
+  .div-5 .card-deck .dev-card footer {
+    font-size: 3vw;
+    background-color: rgb(28, 26, 26);
+    margin-top: 5vw;
+    padding: 1vw;
+  }
+  .div-5 .card-deck .dev-card footer a {
+    color: rgb(234, 227, 229);
+  }
+}
+@media (min-width: 1280px) {
+  .div-5 {
+    padding-top: 3vw;
+  }
+  .div-5 .card-deck {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10% 5% 15% 5%;
+    -moz-column-gap: 5.5vw;
+         column-gap: 5.5vw;
+    color: #030e16;
+    font-family: radikal;
+  }
+  .div-5 .card-deck .dev-card {
+    font-size: 1.2vw;
+    border: 5px solid rgba(197, 77, 77, 0.63);
+    color: crimson;
+  }
+  .div-5 .card-deck .dev-card .card-title {
+    font-size: 1.25vw;
+    padding: 1vw;
+  }
+  .div-5 .card-deck .dev-card .card-text {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1vw;
+  }
+  .div-5 .card-deck .dev-card footer {
+    font-size: 1vw;
+    background-color: black;
+    margin-top: 1vw;
+    padding: 1vw;
+  }
+  .div-5 .card-deck .dev-card footer a {
+    color: crimson;
+  }
+}
+@media (min-width: 320px) {
+  .div-6 .div-6-grid {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.681), rgba(0, 0, 0, 0.75)), url("images/fstack.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .div-6 .div-6-grid .telecode {
+    text-align: center;
+    padding-top: 3.5vw;
+    font-family: "Libre_Barcode_128";
+    font-size: 3.5vw;
+    color: lightblue;
+    font-family: "major_mono_display";
+    background-color: black;
+  }
+  .div-6 .div-6-grid .grid-6-text {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 15vw;
+    font-size: 6vw;
+    font-family: "Raleway_semi_bold";
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec {
+    display: grid;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-p .grid-6-p {
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 4.25vw;
+    padding-top: 2.5vw;
+    font-size: 3vw;
+    text-align: justify;
+    font-family: "Poppins_light";
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-p .grid-6-p span {
+    font-size: 3.5vw;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-btn {
+    padding-top: 3vw;
+    background-color: black;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-btn .div-6-btn {
+    padding: 2.5vw 2.75vw;
+    font-size: 3.5vw;
+    white-space: nowrap;
+    background-color: rgb(40, 35, 36);
+    border: 5px solid rgb(25, 23, 23);
+    width: 100%;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-btn .div-6-btn a {
+    color: rgb(235, 224, 223);
+    font-family: "Raleway_semi_bold";
+  }
+}
+@media (min-width: 1280px) {
+  .div-6 .div-6-grid {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("images/fstack.jpg");
+    height: 54.5vw;
+    background-size: cover;
+    background-position: center;
+  }
+  .div-6 .div-6-grid .telecode {
+    text-align: center;
+    padding-top: 3.5vw;
+    font-family: "Libre_Barcode_128";
+    font-size: 2vw;
+    color: lightblue;
+  }
+  .div-6 .div-6-grid .grid-6-text {
+    color: rgb(194, 73, 73);
+    text-align: center;
+    padding-top: 31.5vw;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec {
+    display: grid;
+    grid-template-columns: 85% 15%;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-p .grid-6-p {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 4.25vw;
+    padding-top: 2.5vw;
+    font-size: 1.1vw;
+    font-family: "Poppins_light";
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-btn {
+    padding-top: 3vw;
+    background-color: black;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-btn .div-6-btn {
+    padding: 1.5vw 2.5vw;
+    font-size: 1vw;
+    white-space: nowrap;
+    transform: translateX(-1vw);
+    background-color: crimson;
+  }
+  .div-6 .div-6-grid .grid-6-text .div-grid-sec .div-grid-btn .div-6-btn a {
+    color: rgb(250, 176, 168);
+  }
+}
+@media (min-width: 320px) {
+  .div-7 {
+    background-color: black;
+    background-color: #09030c;
+    padding-bottom: 7.5vw;
+  }
+  .div-7 .mark-head {
+    padding-top: 10%;
+    font-family: "Montserrat_regular";
+    font-family: "Montserrat_bold";
+    font-family: "Montserrat_extra_bold";
+    font-size: 10vw;
+    font-weight: 200;
+    color: rgb(241, 237, 233);
+    text-align: center;
+  }
+  .div-7 .mark-head::before {
+    content: "";
+    position: absolute;
+    transform: translate(3.5vw, 1.5vw);
+    left: 0;
+    width: 25vw;
+    height: 5px;
+    background-color: #d33535;
+  }
+  .div-7 .mark-head::after {
+    content: "";
+    position: absolute;
+    width: 25vw;
+    transform: translate(2vw, 1.5vw);
+    height: 5px;
+    background-color: #d33535;
+  }
+  .div-7 .div-7-grid .mark-div-x {
+    margin: 5vw;
+    padding: 7.5vw 1.5vw;
+    text-align: center;
+    border: 2px solid rgb(93, 81, 81);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75)), url("images/seo.jpg");
+    background-size: contain;
+    margin-bottom: 2vw;
+    height: 100vw;
+    padding-top: 2.5vw;
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p {
+    font-size: 3.5vw;
+    margin-top: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 3.5vw;
+    margin-top: 0;
+    font-family: "Montserrat_light";
+    color: rgb(216, 192, 196);
+    font-family: "Montserrat_bold";
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p i {
+    font-size: 7vw;
+    margin-right: 2vw;
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p-2 {
+    font-size: 2.15vw;
+    font-family: "Montserrat_regular";
+    color: rgb(241, 231, 231);
+    background-color: rgb(0, 0, 0);
+    padding: 0.5vw;
+    font-size: 3.5vw;
+    text-align: justify;
+    color: rgb(219, 219, 241);
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p-2 .div-7-btn {
+    margin: 1.75vw;
+    padding: 0.75vw 5vw;
+    margin-top: 2.5vw;
+    background-color: black;
+    border: 2px solid rgb(209, 153, 153);
+    font-family: "Limelight";
+    word-spacing: 0.5vw;
+    width: 100%;
+    margin: 0;
+    margin-top: 2vw;
+    background-color: rgb(21, 2, 20);
+    font-family: "Raleway_regular";
+    font-size: 3.25vw;
+    padding: 2vw;
+    font-family: "Montserrat_medium";
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p-2 .div-7-btn a {
+    color: rgb(214, 220, 244);
+  }
+  .div-7 .div-7-grid .mark-div-2 {
+    margin: 1.5vw;
+    margin-top: 7.5vw;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding: 3.5vw 1.5vw;
+    height: 125vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.671)), url("images/damark2.jpg");
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-m .mark-ul {
+    padding-bottom: 5vw;
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-m .mark-ul li {
+    font-size: 2.75vw;
+    font-family: "Montserrat_regular";
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p {
+    font-size: 5vw;
+    color: rgb(0, 0, 0);
+  }
+  .div-7 .div-7-grid .mark-div-2 .mark-ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 0.25vw;
+  }
+  .div-7 .div-7-grid .mark-div-2 .mark-ul .mark-li {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 1.52vw 0;
+    padding: 1.5vw 1.75vw;
+    font-size: 1vw;
+    font: 1vw;
+    font-family: "Lato_regular";
+    border: 3px solid rgb(209, 69, 69);
+    font-family: "Lato_light";
+    font-family: "Montserrat_light";
+    font-family: "Moon_Dance";
+    font-family: "Raleway_medium";
+  }
+  .div-7 .div-7-grid .mark-div-2 .mark-ul .mark-li-x {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p-2 {
+    font-size: 1vw;
+    margin-top: -1.25vw;
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 2px solid rgb(138, 44, 44);
+    text-align: center;
+    padding-bottom: 7.5vw;
+    font-family: "Limelight";
+    font-family: "AlmendraDisplay-Regular";
+    font-family: "Montserrat_light";
+    font-size: 3.5vw;
+    text-align: justify;
+    color: #f4f3fb;
+    padding: 2.5vw;
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p-2 i {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p-2 .div-7-btn {
+    font-size: 2.5vw;
+    padding: 2vw;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(21, 1, 19);
+    font-family: "Montserrat_medium";
+    color: rgb(0, 0, 0);
+    margin-bottom: 2vw;
+    border: 2px solid snow;
+    font-size: 3.25vw;
+    padding: 2vw;
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p-2 .div-7-btn a {
+    color: snow;
+  }
+}
+@media (min-width: 1280px) {
+  .div-7 {
+    background-color: black;
+    background-color: #09030c;
+    padding-bottom: 7.5vw;
+  }
+  .div-7 .mark-head {
+    padding-top: 10%;
+    font-family: "Montserrat_regular";
+    font-size: 5vw;
+    font-weight: 200;
+    color: rgb(243, 9, 56);
+    text-align: center;
+  }
+  .div-7 .mark-head::before {
+    content: "";
+    position: absolute;
+    transform: translate(4.75vw, 1.25vw);
+    left: 0;
+    width: 25vw;
+    height: 25px;
+    background-color: #d33535;
+  }
+  .div-7 .mark-head::after {
+    content: "";
+    position: absolute;
+    width: 25vw;
+    transform: translate(2vw, 1.25vw);
+    height: 25px;
+    background-color: #d33535;
+  }
+  .div-7 .div-7-grid .mark-div-x {
+    margin: 5vw;
+    padding: 7.5vw 5.5vw;
+    text-align: center;
+    border: 2px solid red;
+    height: 25vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75)), url("images/seo.jpg");
+    background-size: contain;
+    margin-bottom: 2vw;
+    height: 35vw;
+    padding-top: 2.5vw;
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p {
+    font-size: 7.5vw;
+    margin: 2vw;
+    margin-top: 3.5vw;
+    padding-bottom: 3.5vw;
+    margin-top: 0;
+    font-family: "Montserrat_light";
+    color: rgb(216, 192, 196);
+    font-family: "Montserrat_bold";
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p #grp {
+    font-size: 15vw;
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p-2 {
+    font-size: 1.15vw;
+    font-family: "Montserrat_light";
+    color: rgb(241, 231, 231);
+    background-color: rgb(0, 0, 0);
+    padding: 2vw;
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p-2 .div-7-btn {
+    margin: 1.75vw;
+    padding: 0.75vw 5vw;
+    margin-top: 2.5vw;
+    background-color: black;
+    border: 2px solid rgb(209, 153, 153);
+    font-family: "Limelight";
+    word-spacing: 0.5vw;
+  }
+  .div-7 .div-7-grid .mark-div-x .div-7-p-2 .div-7-btn a {
+    color: rgba(185, 92, 92, 0.76);
+  }
+  .div-7 .div-7-grid .mark-div-2 {
+    margin: 1.5vw;
+    margin-top: 7.5vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 3.5vw 1.5vw;
+    height: 45vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.671)), url("images/damark2.jpg");
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p {
+    font-size: 2.5vw;
+    color: rgb(0, 0, 0);
+  }
+  .div-7 .div-7-grid .mark-div-2 .mark-ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 0.25vw;
+  }
+  .div-7 .div-7-grid .mark-div-2 .mark-ul .mark-li {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 1.52vw 0;
+    padding: 1.5vw 1.75vw;
+    font-size: 1vw;
+    font: 1vw;
+    font-family: "Lato_regular";
+    border: 3px solid rgb(209, 69, 69);
+    font-family: "Lato_light";
+    font-family: "Montserrat_light";
+    font-family: "Moon_Dance";
+    font-family: "Raleway_medium";
+  }
+  .div-7 .div-7-grid .mark-div-2 .mark-ul .mark-li-x {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  .div-7 .div-7-grid .mark-div-2 .div-7-p-2 {
+    font-size: 1vw;
+    margin-top: -1.25vw;
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 2px solid rgb(138, 44, 44);
+    text-align: center;
+    border-left: none;
+    padding-top: 5.5vw;
+    padding-bottom: 7.5vw;
+    font-family: "Limelight";
+    font-family: "AlmendraDisplay-Regular";
+    font-family: "Montserrat_light";
+  }
+  .div-7 .div-7-grid .mark-div-2 button {
+    font-size: 1.1vw;
+  }
+}/*# sourceMappingURL=styles.css.map */
